@@ -1,0 +1,2 @@
+{names: [with_mask, without_mask, mask_weared_incorrect], nc: 3, train: home/yolo_dataset/images/train,
+  val: home/yolo_dataset/images/valid}
