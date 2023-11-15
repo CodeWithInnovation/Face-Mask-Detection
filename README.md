@@ -4,6 +4,8 @@ In the face of respiratory diseases, and in particular the global health crisis 
 This project exploits the power of YOLOv5, a state-of-the-art object detection model, to build an efficient and accurate mask detection system. 
 The aim is to identify people who are wearing masks correctly, those who are not, and those who are wearing them inappropriately.
 
+The model was trained on a face mask dataset containing 853 images belonging to the 3 classes; with mask, without mask, and mask worn incorrectly.
+
 ## Installation 
 
 Clone the repository
@@ -32,6 +34,8 @@ Configure the path to the train and validation subset in `yolo-data.yaml`
 train: home/yolo_dataset/images/train,
 val: home/yolo_dataset/images/valid
 ```
+
+The notebook `face_mask-dataset.ipynb` contains a detailed exploration of the dataset and the method used to split the data into training and validation sets.
 
 ## Train YoloV5
 
